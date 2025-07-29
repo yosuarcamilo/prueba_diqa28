@@ -43,7 +43,7 @@ Configura tu identidad de Git (reemplaza con tu información):
 
 
 
-   
+
    // Para usar tu archivo PHP de XAMPP con Git y GitHub, sigue estos pasos:
 
    // 1. Abre una terminal y navega a la carpeta donde está tu archivo PHP en XAMPP.
@@ -73,3 +73,22 @@ Configura tu identidad de Git (reemplaza con tu información):
    git push -u origin master
 
    // Ahora tu archivo PHP de XAMPP está versionado con Git y disponible en GitHub.
+
+   // Si ya subiste el proyecto a GitHub y tienes una versión actualizada en tu computadora, sigue estos pasos para actualizar el repositorio remoto:
+
+   // 1. Abre una terminal y navega a la carpeta de tu proyecto.
+   cd C:\xampp\htdocs\mi_proyecto_php
+
+   // 2. Verifica el estado de tus archivos (opcional).
+   git status
+
+   // 3. Agrega los archivos modificados o nuevos.
+   git add .
+
+   // 4. Haz un commit con un mensaje descriptivo.
+   git commit -m "Actualización del proyecto con los últimos cambios"
+
+   // 5. Sube los cambios a GitHub.
+   git push origin master
+
+   // Con esto, tu repositorio en GitHub tendrá la versión más actualizada de tu proyecto.
